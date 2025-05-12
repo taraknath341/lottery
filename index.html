@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goa State Lottery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="lottery-poster">
+    <div class="poster-content">
+      <!-- Header -->
+      <div class="header">
+        <div class="first-prize-label">
+          <div class="first-prize-box">
+            <div>1st Prize</div>
+            <div>Winner Amount</div>
+            <div class="number-one">51L</div>
+          </div>
+          
+        </div>
+
+        <div class="lottery-title">
+          <div class="logo-circle">
+              <img class="logo-inner" src="futurelotterylogo.png">
+          </div>
+          <div class="state-name">Goa State Lotteries</div>
+          <div class="dear-text">Future Lottery</div>
+        </div>
+
+        <div class="time-box" onclick="TimeChange()">
+          <div class="time-number">-</div>
+          <div class="time-text">PM</div>
+          <div class="price">M.R.P ₹5</div>
+        </div>
+      </div>
+
+      <!-- Winning Number -->
+      <div class="winning-number">
+        <div class="winning-number-box">
+          <input type="text" class="onest">
+        </div>
+      </div>
+
+      <!-- Roller Amount -->
+      <div class="roller-amount">
+        <strong>1st Seller Amount : 2 Lakhs</strong>
+      </div>
+
+      <!-- Consolation Prize -->
+      <div class="consolation-prize">
+        <span>
+          Cons.Prize Amount for Winner ₹ <strong>2000/-</strong>
+        </span>
+        <span>
+          for Seller: <strong>1000/-</strong>
+        </span>
+        <span><strong>16321</strong></span>
+        <span style="font-size: 12px;">(All Remaining Serials)</span>
+      </div>
+
+      <!-- 2nd Prize -->
+      <div class="prize-row">
+        <div class="prize-label">
+          <div style="font-size: 18px; font-weight: bold;">2nd</div>
+          <div style="font-size: 12px;">Prize</div>
+          <div style="font-size: 12px;">Amount</div>
+        </div>
+        <div class="prize-amount">
+          <div style="display: flex; justify-content: space-between;">
+            <span>
+              for Winner <strong> ₹ 9000/-</strong>
+            </span>
+            <span>
+              for Seller <strong>₹ 999/-</strong>
+            </span>
+          </div>
+        </div>
+        <div class="prize-numbers">
+          <!-- <div>01749</div>
+          <div>96437</div> -->
+          <input type="number" class="second">
+          <input type="number" class="second">
+          <input type="number" class="second">
+          <input type="number" class="second">
+          <input type="number" class="second">
+          <input type="number" class="second">
+          <input type="number" class="second">
+          <input type="number" class="second">
+          <input type="number" class="second">
+          <input type="number" class="second">
+        </div>
+      </div>
+
+      <!-- 3rd Prize -->
+      <div class="prize-row">
+        <div class="prize-label">
+          <div style="font-size: 18px; font-weight: bold;">3rd</div>
+          <div style="font-size: 12px;">Prize</div>
+          <div style="font-size: 12px;">Amount</div>
+        </div>
+        <div class="prize-amount">
+          <div style="display: flex; justify-content: space-between;">
+            <span>
+              for Winner<strong> ₹ 5000/-</strong>
+            </span>
+            <span>
+              for Seller<strong> ₹ 500/-</strong>
+            </span>
+          </div>
+        </div>
+        <div class="prize-numbers">
+          <!-- <div>15640</div>
+          <div>19840</div> -->
+          <input type="number" class="thard">
+          <input type="number" class="thard">
+          <input type="number" class="thard">
+          <input type="number" class="thard">
+          <input type="number" class="thard">
+          <input type="number" class="thard">
+          <input type="number" class="thard">
+          <input type="number" class="thard">
+          <input type="number" class="thard">
+          <input type="number" class="thard">
+          
+        </div>
+      </div>
+      <center>
+        <div class="dear-text">F u t u r e<span class="hidden">. . .</span> L o t t e r y</div>
+      </center>
+      <!-- 4th Prize -->
+      <div class="prize-row">
+        <div class="prize-label">
+          <div style="font-size: 18px; font-weight: bold;">4th</div>
+          <div style="font-size: 12px;">Prize</div>
+          <div style="font-size: 12px;">Amount</div>
+        </div>
+        <div class="prize-amount">
+          <div style="display: flex; justify-content: space-between;">
+            <span>
+              for Winner<strong> ₹ 600/-</strong>
+            </span>
+            <span>
+              for Seller<strong> ₹ 130/-</strong>
+            </span>
+          </div>
+        </div>
+        <div class="prize-numbers">
+          <!-- <div>0324</div>
+          <div>0639</div> -->
+          <input type="number" class="fourth">
+          <input type="number" class="fourth">
+          <input type="number" class="fourth">
+          <input type="number" class="fourth">
+          <input type="number" class="fourth">
+          <input type="number" class="fourth">
+          <input type="number" class="fourth">
+          <input type="number" class="fourth">
+          <input type="number" class="fourth">
+          <input type="number" class="fourth">
+
+        </div>
+      </div>
+
+      <!-- 5th Prize -->
+      <div class="prize-row">
+        <div class="prize-label">
+          <div style="font-size: 18px; font-weight: bold;">5th</div>
+          <div style="font-size: 12px;">Prize</div>
+          <div style="font-size: 12px;">Amount</div>
+        </div>
+        <div class="prize-amount">
+          <div style="display: flex; justify-content: space-between;">
+            <span>
+              for Winner<strong> ₹ 300/-</strong>
+            </span>
+            <span>
+              for Seller<strong> ₹ 70/-</strong>
+            </span>
+          </div>
+        </div>
+        <div class="prize-numbers">
+          <!-- <div>0324</div>
+          <div>0639</div> -->
+          <input type="number" class="fiveth">
+          <input type="number" class="fiveth">
+          <input type="number" class="fiveth">
+          <input type="number" class="fiveth">
+          <input type="number" class="fiveth">
+          <input type="number" class="fiveth">
+          <input type="number" class="fiveth">
+          <input type="number" class="fiveth">
+          <input type="number" class="fiveth">
+          <input type="number" class="fiveth">
+
+        </div>
+      </div>
+
+      <div class="fifth-prize-header">
+        6th Prize Amount for Winner ₹ 130/- for Seller ₹ 50/-
+      </div>
+
+      <!-- 6th Prize Numbers -->
+      <div class="fifth-prize-numbers" id="fifth-prize-numbers">
+        <!-- Javascript is work -->
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="footer-date" id="footer-date-1">04/05/25</div>
+        <div class="footer-time" onclick="print()">1 PM</div>
+        <div class="footer-date" id="footer-date-2" onclick="submitBtn()">04/05/25</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

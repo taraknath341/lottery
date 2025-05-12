@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  zoom: 60%;
+}
+
+.poster-content {
+  background-image: url(backgro.jpeg);
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.first-prize-label {
+  color: #0d1b7e;
+  font-weight: bold;
+}
+
+.first-prize-box {
+  background-color: #0d1b7e;
+  color: #ffeb3b;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.number-one {
+  font-size: 2.5pc;
+  font-weight: 900;
+  color: #fff;
+}
+
+.lottery-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #008000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.logo-inner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #008000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+}
+
+.state-name {
+  color: #008000;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.dear-text {
+  background-color: #eb220700;
+  color: black;
+  padding: 5px 30px;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.time-box {
+  background-color: #e30613;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.time-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.time-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.draw-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.draw-date {
+  background-color: #e30613;
+  color: white;
+  padding: 5px 15px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 14px;
+}
+
+.winning-number {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.winning-number-box {
+  background-color: #e30613;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 2pc;
+  border-radius: 8pc;
+}
+
+.roller-amount {
+  text-align: center;
+  background-color: white;
+  padding: 5px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.consolation-prize {
+  background-color: white;
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prize-row {
+  display: flex;
+  margin: 5px 0;
+}
+
+.prize-label {
+  background-color: #0d1b7e;
+  color: white;
+  width: 60px;
+  text-align: center;
+  padding: 5px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.prize-amount {
+  color: white;
+  padding: 5px;
+  flex: 1;
+  font-size: 14px;
+  border-top-right-radius: 1pc;
+  border-bottom-right-radius: 3pc;
+}
+
+.prize-numbers {
+  background-color: rgba(174, 223, 252, 0.87);
+  flex: 3;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+.fifth-prize-header {
+  background-color: #2196f3;
+  color: white;
+  padding: 3px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.fifth-prize-numbers {
+  background-color: white;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 2.5px;
+  text-align: center;
+  font-size: 15.5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.footer-date {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.footer-time {
+  background-color: #e30613;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.hidden {
+  color:#07d1eb00;
+}
+.onest {
+  height: 2pc;
+  font-size: 1.5pc;
+  width: 9pc;
+}
+.second,.thard,.fourth,.fiveth {
+  height: 1.5pc;
+  width: 4pc;
+}
+.sixth {
+  height: 1.5pc;
+  width: 3.5pc;
+}
